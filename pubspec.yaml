@@ -1,0 +1,32 @@
+name: viddownloader
+description: "Android app to download public Instagram videos from a link."
+# Private app: never publish it to pub.dev.
+publish_to: 'none'
+
+# version: <versionName>+<versionCode>
+# The release workflow overrides both with --build-name (from the git tag) and
+# --build-number (from the GitHub run number).
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  material_ui: ^1.11.1
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  # Generates lib/l10n/app_localizations*.dart from the ARB files (see l10n.yaml).
+  generate: true
+  uses-material-design: true

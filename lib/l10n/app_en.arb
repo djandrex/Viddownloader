@@ -1,0 +1,99 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Viddownloader",
+
+  "homeHeadline": "Download Instagram videos",
+  "homeSubtitle": "Paste a Reel or post link and save the video to your gallery.",
+  "urlFieldLabel": "Instagram link",
+  "urlFieldHint": "https://www.instagram.com/reel/…",
+  "pasteButton": "Paste",
+  "clearTooltip": "Clear",
+  "downloadButton": "Download",
+  "cancelButton": "Cancel",
+  "openButton": "Open",
+  "shareButton": "Share",
+  "dismissButton": "Dismiss",
+  "settingsTooltip": "Settings",
+  "languageToggleTooltip": "Change language",
+  "shareTip": "Tip: in Instagram, tap Share → Viddownloader to download right away.",
+
+  "clipboardBannerText": "There is an Instagram link in your clipboard.",
+  "clipboardNoLink": "There is no Instagram link in the clipboard.",
+
+  "statusPreparing": "Getting the video…",
+  "statusDownloading": "Downloading… {percent}%",
+  "@statusDownloading": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "statusItem": "Video {current} of {total}",
+  "@statusItem": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "statusSaving": "Saving to the gallery…",
+  "successMessage": "{count, plural, =1{Video saved to your gallery} other{{count} videos saved to your gallery}}",
+  "@successMessage": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "successLocation": "Folder: Movies/Viddownloader",
+  "canceledMessage": "Download canceled.",
+  "openFailed": "No app found to open the video.",
+
+  "errorInvalidUrl": "That doesn't look like an Instagram video link. Use the link of a Reel or a post.",
+  "errorPrivateOrDeleted": "This video is private, was deleted, or the post has no videos.",
+  "errorLoginRequired": "Instagram is asking to log in to show this video.",
+  "errorRateLimited": "Instagram is limiting requests. Try again in a few minutes.",
+  "errorNetwork": "No internet connection. Check your connection and try again.",
+  "errorBusy": "A download is already in progress.",
+  "errorStoragePermission": "Storage permission is needed to save videos.",
+  "errorUnknown": "Something went wrong. Try again or update the download engine in Settings.",
+  "loginButton": "Log in to Instagram",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsEngineSection": "Download engine",
+  "settingsEngineVersion": "yt-dlp version: {version}",
+  "@settingsEngineVersion": {
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  },
+  "settingsLoading": "Loading…",
+  "settingsUpdateEngine": "Update download engine",
+  "settingsEngineUpdated": "Download engine updated to {version}.",
+  "@settingsEngineUpdated": {
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  },
+  "settingsEngineUpToDate": "The download engine is already up to date.",
+  "settingsEngineUpdateFailed": "Could not update. Check your connection and try again.",
+  "settingsEngineBusy": "Wait for the current download to finish.",
+  "settingsSessionSection": "Instagram session (optional)",
+  "settingsSessionLoggedIn": "Logged in. It is only used when Instagram requires it.",
+  "settingsSessionLoggedOut": "Not logged in. Only needed if Instagram asks for it.",
+  "settingsSessionTip": "We recommend using a secondary account.",
+  "logoutButton": "Log out",
+  "settingsLoggedInMessage": "Session saved.",
+  "settingsLoggedOutMessage": "Session closed.",
+  "settingsAboutSection": "About",
+  "settingsAppVersion": "App version: {version}",
+  "@settingsAppVersion": {
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  },
+  "settingsLegalNote": "Download only public content and respect the creators' rights.",
+
+  "notifChannelName": "Downloads",
+  "notifDownloading": "Downloading video…",
+  "notifFailed": "Download failed",
+  "loginScreenTitle": "Log in to Instagram"
+}
